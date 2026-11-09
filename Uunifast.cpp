@@ -83,7 +83,7 @@ int main(int argc, char* argv[]) {
         return 1;
     }
     if (n / 1000.0 > U) {
-        cerr << "Cannot generate a task set with U <= 1.\n";
+        cerr << "Cannot generate a task set\n";
         return 1;
     }
 
